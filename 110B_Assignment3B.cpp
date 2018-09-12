@@ -31,12 +31,8 @@ int main(){
     
     cout << "Please enter the number (larger than or equal to 0) of element(s) that the Fibonacci numbers will have: "<<endl;
     cin >> count;
-    
-    
-    while(count < 0){
-        cout << "Please enter the number of element(s) that the Fibonacci numbers will have(except 0): "<<endl;
-         cin >> count;
-    }
+        
+  
     
     fibonum(count);
     
